@@ -118,6 +118,9 @@ p users["Erik"][:favourite_numbers].sort().first
 # 6. Add the number `7` to Erik's favourite numbers
 
 users["Erik"][:favourite_numbers] << 7
+# or
+#users["Erik"][:favourite_numbers].push(7)
+
 p users["Erik"][:favourite_numbers]
 
 # 7. Change Erik's hometown to Edinburgh
